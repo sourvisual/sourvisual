@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "sourvisual",
+  "version": "${version}",
+  "name": "Sour Visual",
+  "description": "Меню визуала, открывается на Right Shift",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.sourvisual.SourVisualMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
